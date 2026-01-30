@@ -1,10 +1,9 @@
-п»ї#include <iostream>
+#include <iostream>
 #include <cstdlib>//rand() and srand()
 #include <ctime>// time()
 using namespace std;
-
 int main() {
-	srand(time(0));// СЂР°Р·РЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ РїСЂРё РєР°Р¶РґРѕРј Р·Р°РїСѓСЃРєРµ
+	srand(time(0));// разные значения при каждом запуске
 	int random_num = rand() % 100 + 1;//(end-start+1)+start
 	int p = 0;
 
